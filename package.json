@@ -1,0 +1,33 @@
+{ "name": "concise-value-preview-pmb",
+  "version": "0.1.0",
+  "description": "A stringifier that optimizes for the quick gaze, rather than correctness or completeness.",
+  "keywords": [
+    "stringify"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/concise-value-preview-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/concise-value-preview-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/concise-value-preview-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "describe.js",
+  "scripts": { "test": "nodemjs test.usage.mjs" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "browser": {
+  },
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
