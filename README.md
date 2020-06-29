@@ -36,7 +36,7 @@ Return a string that describes the type of `x`.
 Usage
 -----
 
-see [test.usage.mjs](test.usage.mjs).
+see [test/usage.mjs](test/usage.mjs).
 
 
 <!--#toc stop="scan" -->

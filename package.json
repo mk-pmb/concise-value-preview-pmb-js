@@ -1,5 +1,5 @@
 { "name": "concise-value-preview-pmb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A stringifier that optimizes for the quick gaze, rather than correctness or completeness.",
   "keywords": [
     "stringify"
@@ -19,13 +19,21 @@
   "private": false, "license": "ISC",
 
   "main": "describe.js",
-  "scripts": { "test": "nodemjs test.usage.mjs" },
+  "scripts": { "test": "nodemjs test/all.mjs" },
   "directories": { "test": "test" },
 
-  "dependencies": {},
+  "dependencies": {
+    "ersatz-ellip": "^1.0.1",
+    "getown": "^1.0.0",
+    "is-error": "^2.2.2",
+    "is-fn": "^2.0.0",
+    "univeil": "^0.1.17"
+  },
   "browser": {
   },
   "devDependencies": {
+    "nodemjs": "^0.1.8",
+    "usnam-pmb": "^0.2.4"
   },
 
 
